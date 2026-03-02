@@ -1,0 +1,16 @@
+feature,importance
+candidate_ordered_before,0.2541
+max_co_occur_confidence,0.2215
+candidate_price_vs_cart_avg,0.1452
+candidate_price,0.1023
+user_order_frequency,0.0812
+days_since_last_order,0.0514
+cart_total_value,0.0421
+user_avg_order_value,0.0315
+hour,0.0211
+meal_time,0.0152
+user_veg_preference_ratio,0.0143
+cat_dessert,0.0102
+cat_side,0.0051
+user_segment,0.0035
+cat_drink,0.0013
