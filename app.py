@@ -1236,8 +1236,7 @@ with tab5:
             st.markdown(f"""<div style="margin-top:16px;padding:10px 16px;background:#0a0a0a;border-radius:8px;font-size:.82rem;color:#555">
               📍 Meal chain: {crumb}</div>""", unsafe_allow_html=True)
 
-    st.markdown("<br>", unsafe_allow_html=True)
-    st.markdown('<div class="insight-pill">✅ <strong>Expected Output per Request:</strong> Top 8–10 ranked candidates · probability scores · context-aware · dynamic on every add · &lt;200ms latency. Full evaluation in <strong>🧠 AI Insights</strong> tab.</div>', unsafe_allow_html=True)
+   
 
 with tab6:
     st.markdown('<div class="sec-title">🧠 AI Model Insights</div>', unsafe_allow_html=True)
