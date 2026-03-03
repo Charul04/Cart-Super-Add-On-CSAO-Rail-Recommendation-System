@@ -1369,10 +1369,11 @@ with tab6:
         with ef2:
             st.markdown("""<div style="background:#0d0d0d;border:1px solid #1e1e1e;border-radius:14px;padding:18px">
               <div style="font-size:.75rem;color:#FF6B35;font-weight:700;letter-spacing:.8px;margin-bottom:12px">🔬 HYPERPARAMETER TUNING</div>
-              <div style="color:#777;font-size:.78rem;margin-bottom:10px">RandomizedSearchCV · 50 iterations · 5-fold CV · AUC scoring</div>
               <div style="font-family:monospace;font-size:.78rem;color:#FF6B35;background:#1a0e04;padding:12px;border-radius:8px;line-height:1.9">
-                n_estimators: 300<br>max_depth: 6<br>learning_rate: 0.05<br>
-                subsample: 0.8<br>colsample_bytree: 0.8<br>scale_pos_weight: 2.8
+                n_estimators: 500<br>
+                learning_rate: 0.05<br>
+                max_depth: 4<br>subsample: 0.8<br>colsample_bytree: 0.8<br>eval_metric: 'auc'<br>min_child_weight: 5<br>gamma: 0.1<br>reg_alpha: 0.1<br>reg_lambda: 1.0<br>scale_pos_weight: calculated = neg/pos<br>random_state: 42<br>n_jobs: -1<br>early_stopping_rounds: 20
+                
               </div>
               <div style="margin-top:10px;padding:8px;background:#0a0a0a;border-radius:8px;font-size:.76rem;color:#aaa">
                 ⚖️ <strong style="color:#FF6B35">scale_pos_weight=2.8</strong> handles ~26% acceptance rate class imbalance
