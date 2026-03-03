@@ -1361,7 +1361,6 @@ with tab6:
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:7px 0">Split strategy</td><td style="color:#fff;font-weight:600;text-align:right">Temporal (no leakage)</td></tr>
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:7px 0">Train set</td><td style="color:#fff;font-weight:600;text-align:right">80% · 33,316 records</td></tr>
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:7px 0">Holdout test set</td><td style="color:#fff;font-weight:600;text-align:right">20% · 8,330 records</td></tr>
-                <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:7px 0">Validation</td><td style="color:#fff;font-weight:600;text-align:right">5-fold CV on train</td></tr>
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:7px 0">Random baseline AUC</td><td style="color:#E74C3C;font-weight:700;text-align:right">0.501</td></tr>
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:7px 0">Popularity baseline AUC</td><td style="color:#F39C12;font-weight:700;text-align:right">0.712</td></tr>
                 <tr><td style="color:#888;padding:7px 0">Our XGBoost AUC</td><td style="color:#27AE60;font-weight:800;text-align:right">0.9637 ✅</td></tr>
