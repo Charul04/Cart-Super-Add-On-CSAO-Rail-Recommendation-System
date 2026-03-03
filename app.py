@@ -1497,11 +1497,8 @@ with tab6:
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:8px 0">AOV Lift</td><td style="color:#27AE60;font-weight:800;text-align:right">+12–15%</td></tr>
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:8px 0">CSAO Attach Rate</td><td style="color:#27AE60;font-weight:800;text-align:right">+8–10%</td></tr>
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:8px 0">Acceptance Rate</td><td style="color:#27AE60;font-weight:800;text-align:right">26–31%</td></tr>
-                <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:8px 0">CTR</td><td style="color:#27AE60;font-weight:800;text-align:right">18–22%</td></tr>
-                <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:8px 0">C2O Rate</td><td style="color:#27AE60;font-weight:800;text-align:right">Neutral → +2%</td></tr>
-                <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:8px 0">Avg Items / Order</td><td style="color:#27AE60;font-weight:800;text-align:right">+0.4–0.7</td></tr>
-                <tr><td style="color:#888;padding:8px 0">Coverage</td><td style="color:#27AE60;font-weight:800;text-align:right">97.3%</td></tr>
-              </table>
+                <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:8px 0">CTR</td><td style="color:#27AE60;font-weight:800;text-align:right">18–22%</td></tr>                <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:8px 0">C2O Rate</td><td style="color:#27AE60;font-weight:800;text-align:right">Neutral → +2%</td></tr>
+#             </table>
               <div style="margin-top:12px;padding:8px;background:#061409;border:1px solid #27AE60;border-radius:8px;font-size:.76rem;color:#7fcea0;text-align:center">
                 🎯 Deploy <strong>Drink + Side</strong> first — 33% + 31% acceptance, lowest abandonment risk
               </div>
