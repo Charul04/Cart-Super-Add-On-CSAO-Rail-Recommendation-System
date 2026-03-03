@@ -1236,7 +1236,8 @@ with tab5:
             st.markdown(f"""<div style="margin-top:16px;padding:10px 16px;background:#0a0a0a;border-radius:8px;font-size:.82rem;color:#555">
               📍 Meal chain: {crumb}</div>""", unsafe_allow_html=True)
 
-   
+    st.markdown("<br>", unsafe_allow_html=True)
+    st.markdown('<div class="insight-pill">✅ <strong>Expected Output per Request:</strong> Top 8–10 ranked candidates · probability scores · context-aware · dynamic on every add · &lt;200ms latency. Full evaluation in <strong>🧠 AI Insights</strong> tab.</div>', unsafe_allow_html=True)
 
 with tab6:
     st.markdown('<div class="sec-title">🧠 AI Model Insights</div>', unsafe_allow_html=True)
@@ -1360,7 +1361,7 @@ with tab6:
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:7px 0">Split strategy</td><td style="color:#fff;font-weight:600;text-align:right">Temporal (no leakage)</td></tr>
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:7px 0">Train set</td><td style="color:#fff;font-weight:600;text-align:right">80% · 33,316 records</td></tr>
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:7px 0">Holdout test set</td><td style="color:#fff;font-weight:600;text-align:right">20% · 8,330 records</td></tr>
-           
+            
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:7px 0">Random baseline AUC</td><td style="color:#E74C3C;font-weight:700;text-align:right">0.501</td></tr>
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:7px 0">Popularity baseline AUC</td><td style="color:#F39C12;font-weight:700;text-align:right">0.712</td></tr>
                 <tr><td style="color:#888;padding:7px 0">Our XGBoost AUC</td><td style="color:#27AE60;font-weight:800;text-align:right">0.9637 ✅</td></tr>
