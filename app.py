@@ -1448,11 +1448,8 @@ with tab6:
               <div style="font-size:.75rem;color:#FF6B35;font-weight:700;letter-spacing:.8px;margin-bottom:12px">📐 SCALABILITY</div>
               <table style="width:100%;font-size:.82rem;border-collapse:collapse">
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:7px 0">Model serving</td><td style="color:#fff;font-weight:600;text-align:right">In-memory cache</td></tr>
-                <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:7px 0">Feature lookup</td><td style="color:#fff;font-weight:600;text-align:right">O(1) retrieval</td></tr>
-                <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:7px 0">Candidate scoring</td><td style="color:#fff;font-weight:600;text-align:right">1 batch call</td></tr>
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:7px 0">Throughput</td><td style="color:#27AE60;font-weight:700;text-align:right">Millions/day</td></tr>
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:7px 0">Latency</td><td style="color:#27AE60;font-weight:700;text-align:right">&lt;200ms ✅</td></tr>
-                <tr><td style="color:#888;padding:7px 0">Coverage</td><td style="color:#27AE60;font-weight:700;text-align:right">97.3%</td></tr>
               </table>
             </div>""", unsafe_allow_html=True)
         with sc2:
@@ -1462,7 +1459,6 @@ with tab6:
                 <div style="margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid #1e1e1e"><strong style="color:#fff">🆕 Cold Start</strong><div style="color:#666;font-size:.76rem">New users → popularity fallback. New items → content features used directly.</div></div>
                 <div style="margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid #1e1e1e"><strong style="color:#fff">🎲 Diversity</strong><div style="color:#666;font-size:.76rem">Max 3 items per category in Top-10 to avoid fatigue.</div></div>
                 <div style="margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid #1e1e1e"><strong style="color:#fff">⚖️ Fairness</strong><div style="color:#666;font-size:.76rem">Evaluated per segment. Works for chain + independent restaurants.</div></div>
-                <div><strong style="color:#fff">🤫 Non-intrusive</strong><div style="color:#666;font-size:.76rem">Only shown when cart has items. 50% probability threshold.</div></div>
               </div>
             </div>""", unsafe_allow_html=True)
 
@@ -1495,10 +1491,9 @@ with tab6:
               <div style="font-size:.75rem;color:#FF6B35;font-weight:700;letter-spacing:.8px;margin-bottom:12px">📈 PROJECTED IMPACT</div>
               <table style="width:100%;font-size:.83rem;border-collapse:collapse">
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:8px 0">AOV Lift</td><td style="color:#27AE60;font-weight:800;text-align:right">+12–15%</td></tr>
-                <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:8px 0">CSAO Attach Rate</td><td style="color:#27AE60;font-weight:800;text-align:right">+8–10%</td></tr>
+                <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:8px 0">CSAO Attach Rate</td><td style="color:#27AE60;font-weight:800;text-align:right">23-26.8%</td></tr>
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:8px 0">Acceptance Rate</td><td style="color:#27AE60;font-weight:800;text-align:right">26–31%</td></tr>
                 <tr style="border-bottom:1px solid #1e1e1e"><td style="color:#888;padding:8px 0">CTR</td><td style="color:#27AE60;font-weight:800;text-align:right">18–22%</td></tr>
-             <tr><td style="color:#888;padding:8px 0">Coverage</td><td style="color:#27AE60;font-weight:800;text-align:right">97.3%</td></tr>
               </table>
               <div style="margin-top:12px;padding:8px;background:#061409;border:1px solid #27AE60;border-radius:8px;font-size:.76rem;color:#7fcea0;text-align:center">
                 🎯 Deploy <strong>Drink + Side</strong> first — 33% + 31% acceptance, lowest abandonment risk
